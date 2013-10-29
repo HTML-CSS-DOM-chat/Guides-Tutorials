@@ -1,22 +1,31 @@
-<h2>A bit of history</h2>
+##A bit of history
 
-You may think that Flexbox is just a new experimental CSS3 technology; I have not been able to find a copy of the original specification of Flexbox, but it probably dates back to 10-15 years ago, when the web had not reached yet the potential of these days. I hope someone will help me to glean some infos about it while reading this series of articles, because I searched for hours, but I couldn't find anything trustable.
+You may think that `flexbox` is an experimental `CSS3` technology, however its origins date back at least 10-15 years, when the web was still in its infancy. If anyone knows the true origin of `flexbox` please feel free to leave a comment, I searched for hours, but I couldn't find anything solid.
 
-Those years we thought that the internet had reached already its full maturity, but those times seem today light years away. Internet was basically a bunch of advertising pages, but today interactivity is increased and every day we see the birth of new sites that are actually real programs once unthinkable in a web browser.
+Back then it was thought that the internet had reached its full maturity. On reflection the internet was basically a bunch of advertising pages. Today, interactivity has increased and every day sees the birth of new websites that act like real applications, which was once unthinkable in a web browser.
 
-<strong>Flexbox born both for a real purpose, and for the foresight to see the future of the web.</strong> In fact, although its immediate utility was to create the layout for XUL applications (like Firefox , Thunderbird and thousands of related extensions ) it was possible already to see the real purpose of this technology: <strong>the web would become more interactive and it would be needed an efficient and intelligent way to create layouts of applications</strong>.
+`flexbox` was born to resolve a real problem, whilst having the foresight to aid the future of the web.
 
-CSS2 has many limitations due to its document-oriented nature; the web was not designed to create applications. If XMLHTTP ( AJAX ) has revolutionized the use of JavaScript, Flexbox will revolutionize the use of CSS. The document-oriented CSS also becomes app-oriented now. <strong>If in the past it wasn't a necessity to create toolbar, advanced modules, panels and datagrids, nowadays has become a priority, and Flexbox comes to the rescue</strong>.
+In fact its immediate purpose was to create layouts for XUL applications (like Firefox , Thunderbird and thousands of related extensions ) it was possible already to see the real purpose of this technology and its use in the future: 
 
-<em><strong>Flexbox is the potential solution to many problems of layout so far impossible to solve with CSS2</strong></em>
+**The web would become more interactive and we would needed an efficient and intelligent way to create layouts for our applications**.
 
-In this series of articles will be shown how to design a very special layout created exclusively using Flexbox, together to all its benefits and its operating logic.
+`CSS2` has many limitations due to its document-oriented nature; the web was not designed to create applications. If `XMLHTTP` ( ajax ) has revolutionized the use of JavaScript, `flexbox` should revolutionize the use of CSS. 
 
-Although I've used Flexbox with XUL for years, even for me this is a new world, so I'll try to guide you in the intricate design issues looking at them with the eyes of a complete newbie.
+The document-oriented CSS used for several years, also has to serve the purpose of application-oriented CSS. In the past it wasn't a necessity to create user interfaces like, toolbar, advanced modules, panels and datagrids. However at present this is a priority, and `flexbox` may come to the rescue.
+
+**Flexbox has the potential to solve many problems of complex layouts, which are seen as impossible to solve with CSS2.**
+
+In this series of articles will be designing a very special layout created exclusively using `flexbox`, highlighting all of its benefits and operating logic.
+
+Although I've used Flexbox with XUL for years, this is a new world to me, so I'll try to my best to guide you with what could be a very important component of the websites of tomorrow.
+
+###What specification?###
+
+Using `flexbox` today could be a real pain, since there are 3 major implementations / specifications, each very different.
+
+The first specification is vendor prefixed, so our CSS would require maintance, which isn't ideal.
+
+**In this series we shall be looking at the last specification. We shall be this specification to create an application based design, such as an administration panel for a website, where old browser support isn't a priority.**
 
 Stay tuned and follow us at <a href="http://chat.stackoverflow.com/rooms/29074" target="_blank">HTML/CSS Room</a>
-
-<h2>About its implementation status</h2>
-
-Using flexbox today could be a real pain, since there are 3 mayor implementations that sadly differ a lot; also the first spec is vendor prefixed, so our CSS could result in something horrible to maintain and that's not what we like. We should use just the last spec, but in particular environments, such as the administration panel of a website,
-where old browser support isn't a priority. [to continue...]
