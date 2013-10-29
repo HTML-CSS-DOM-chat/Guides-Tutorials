@@ -18,6 +18,5 @@ Stay tuned and follow us at <a href="http://chat.stackoverflow.com/rooms/29074" 
 
 <h2>About its implementation status</h2>
 
-Using flexbox today could be a real pain, since there are 3 mayor implementations that sadly differs a lot; also the first spec is vendor prefixed, so our CSS could result in something horrible to maintain and that's not what we like.
-We should use just the last spec, but in particular environments, such as the administration panel of a website,
+Using flexbox today could be a real pain, since there are 3 mayor implementations that sadly differ a lot; also the first spec is vendor prefixed, so our CSS could result in something horrible to maintain and that's not what we like. We should use just the last spec, but in particular environments, such as the administration panel of a website,
 where old browser support isn't a priority. [to continue...]
