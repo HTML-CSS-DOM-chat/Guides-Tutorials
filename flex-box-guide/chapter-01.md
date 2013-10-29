@@ -1,3 +1,5 @@
+<h2>A bit of history</h2>
+
 You may think that Flexbox is just a new experimental CSS3 technology; I have not been able to find a copy of the original specification of Flexbox, but it probably dates back to 10-15 years ago, when the web had not reached yet the potential of these days. I hope someone will help me to glean some infos about it while reading this series of articles, because I searched for hours, but I couldn't find anything trustable.
 
 Those years we thought that the internet had reached already its full maturity, but those times seem today light years away. Internet was basically a bunch of advertising pages, but today interactivity is increased and every day we see the birth of new sites that are actually real programs once unthinkable in a web browser.
